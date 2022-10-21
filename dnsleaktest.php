@@ -11,5 +11,3 @@
     curl_setopt($ch, CURLOPT_HEADER, 0);
 
     $res = curl_exec($ch);
-
-    echo "${res}";
